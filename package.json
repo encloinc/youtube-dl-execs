@@ -3,9 +3,6 @@
     "name": "Enclo",
     "url": "https://github.com/encloinc"
   },
-  "bugs": {
-    "url": "https://github.com/przemyslawpluta/node-youtube-dl/issues"
-  },
   "bundleDependencies": false,
   "contributors": [
     {
@@ -34,7 +31,7 @@
   ],
   "license": "MIT",
   "main": "./lib/youtube-dl.js",
-  "name": "youtube-dl",
+  "name": "youtube-dl-execs",
   "repository": {
     "type": "git",
     "url": "git://github.com/encloinc/youtube-dl-execs.git"
