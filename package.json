@@ -1,45 +1,22 @@
 {
-  "author": {
-    "name": "Enclo",
-    "url": "https://github.com/encloinc"
-  },
-  "bundleDependencies": false,
-  "contributors": [
-    {
-      "name": "Enclo",
-      "email": "lopicmusic@gmail.com",
-    }
-  ],
-  "dependencies": {
-    "hh-mm-ss": "^1.2.0",
-    "mkdirp": "^0.5.1",
-    "request": "^2.83.0",
-    "streamify": "^0.2.9"
-  },
-  "deprecated": false,
-  "description": "A spinoff of https://www.npmjs.com/package/youtube-dl",
-  "devDependencies": {
-    "vows": "*"
-  },
-  "directories": {
-    "lib": "./lib"
-  },
-  "keywords": [
-    "youtube",
-    "video",
-    "download"
-  ],
-  "license": "MIT",
-  "main": "./lib/youtube-dl.js",
   "name": "youtube-dl-execs",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/encloinc/youtube-dl-execs.git"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "postinstall": "node ./scripts/download.js",
-    "test": "vows ./test/*.js --spec",
-    "update": "node ./scripts/download.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "version": "1.12.2"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-rate-limit": "^2.12.2",
+    "request": "^2.87.0",
+    "simple-youtube-api": "^5.0.2",
+    "youtube-dl": "^1.12.2",
+    "youtube-feeds": "^2.4.1"
+  }
 }
+
